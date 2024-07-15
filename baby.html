@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+
+
+    <style>
+        body {
+            font-family: "Gabarito", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        * {
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .image {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 650px;
+            position: absolute;
+            margin-top: 250px;
+            animation-name: zoom;
+            animation-duration: 3s;
+            opacity: 0;
+            animation-fill-mode: forwards;
+            margin-right: 80%;
+            left: 360px;
+            top: 30px;
+            animation-iteration-count: infinite;
+
+
+
+
+
+        }
+
+        @keyframes zoom {
+            0% {
+                transform: scale(0);
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+        }
+
+        @keyframes zoom_2 {
+            0% {
+                transform: scale(0);
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        picture {
+            height: 60%;
+            width: 60%;
+            /* position: relative; */
+        }
+
+        .section_1 {
+            position: relative;
+
+        }
+
+
+        .head {
+            margin-left: 90px;
+            margin-top: 15px;
+            background-color: rgb(247, 207, 214);
+            padding: 4px;
+            border-radius: 10px;
+            width: fit-content;
+            padding-left: 15px;
+            padding-right: 15px;
+
+            font-size: xx-large;
+            /* position: absolute; */
+
+        }
+
+
+        .middle {
+            margin-left: 105px;
+
+            /* position: absolute; */
+        }
+
+
+        .section_2 {
+            margin-bottom: 180%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            position: absolute;
+            margin-left: 210px;
+            margin-top: 280px;
+            padding: 6px;
+            top: 100px;
+
+
+
+
+
+        }
+
+        .place {
+            margin-left: 100px;
+
+
+            /* position: absolute; */
+
+        }
+
+        .click {
+            background: black;
+            color: white;
+            font-size: large;
+            border-radius: 10px;
+            width: 150px;
+            margin-left: 130px;
+            /* position: absolute; */
+        }
+
+        .end {
+            margin-left: 100px;
+
+        }
+
+        .name {
+            margin-left: 70px;
+        }
+
+        .number {
+            margin-left: 140px;
+        }
+
+        .join {
+            margin-left: 110px;
+            border-radius: 50px;
+            background-color: rgb(214, 248, 248);
+            margin-right: 50px;
+            padding-right:30px;
+            padding-left: 30px;
+            animation-name: zoom_2;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+            opacity: 0;
+            animation-fill-mode: forwards;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <section class="section_1">
+
+        <img class="picture" src="./images/img 1.jpeg">
+        <img class="image" src="./images/baby image.png">
+
+
+        <div class="section_2">
+
+            <h1 class="head">Baby Shower</h1>
+            <p class="middle">in honour of parents to be </p>
+            <h1 class="name">Rajesh & Priyanka Dass</h1>
+            <p class="place">11:30AM Sunday, 28 july 2024</p>
+            <button class="click">Venue</button>
+            <p class="end">Akshayam Hotel, Anna Nagar</p>
+            <p class="number">chennai-600040</p>
+            <h3 class="join">let's join with us</h3>
+
+        </div>
+
+
+    </section>
+</body>
+
+</html>
